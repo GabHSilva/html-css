@@ -1,7 +1,17 @@
 @charset 'UTF-8';
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luckiest+Guy&display=swap');
+
+@font-face {
+    font-family: 'Xilosa';
+    src: url(fontes/xilosa_.ttf);
+}
+
 :root {
     --cor0:#F8AFB6;
+    --fonte-destaque: 'Xilosa', "cursive";
+    --fonte-artigo: 'Luckiest Guy', 'cursive';
+    --fonte-padrao: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,15 +21,15 @@ body {
 header {
     margin: 0px;
     padding: 50px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-family: var(--fonte-padrao);
     background-color: var(--cor0);
 }
 
 header h1 {
     margin: 0px;
     padding: 0px;
-    font-family: cursive;
+    font-family: var(--fonte-destaque);
     font-size: 10vw;
     
 }
@@ -29,6 +39,15 @@ header p {
     font-size: 1.3em;
 }
 
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
 main {
     margin: 0px;
 }
@@ -36,9 +55,9 @@ main {
 section p {
     margin: 0px;
     padding: 70px 20px;
-    font-size: 3.5vw;
+    font-size: 3.0vw;
     text-align: left;
-    font-family: cursive;
+    font-family: var(--fonte-artigo);
 }
 
 section#img1 {
@@ -58,7 +77,7 @@ section#img2 {
 section p.textimg {
     display: inline-block;
     padding: 0px;
-    text-align: 7.5vw;
+    text-align: 7.0vw;
     color: white;
     background-color: rgba(0, 0, 0, 0.418);
 }
