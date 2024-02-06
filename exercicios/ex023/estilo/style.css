@@ -74,7 +74,7 @@ div#tabela2 tfoot {
     font-weight: bolder;
 }
 
-/*TABELA DE TREINO 1 E 2*/
+/*TABELA DE TREINO 1 2 E 3*/
 
 div#tt1 table {
     width: 300px;
@@ -96,4 +96,36 @@ div#tt2 td {
     padding: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+div#tt3 table {
+    width: 400px
+}
+
+div#tt3 td {
+    padding: 8px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+div#tt3 th, div#tt3 .notas, div#tt3 .media {
+    text-align: center;
+}
+
+div#tt3 th, div#tt3 .media {
+    background-color: #636363;
+    color: white;
+}
+
+div#tt3 .thmedia {
+    text-align: left;
+}
+
+/*CONFIG TABELA 4*/
+
+div#tabela4 table {
+    width: 200px;
+    border: 0px;
+    border-collapse: separate;
+    border-spacing: 2px;
 }
