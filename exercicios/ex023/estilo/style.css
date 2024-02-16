@@ -129,3 +129,15 @@ div#tabela4 table {
     border-collapse: separate;
     border-spacing: 2px;
 }
+
+div#tabela4 .c1 {
+    background-color: #E3C386;
+}
+
+div#tabela4 .c2 {
+    background-color: #DEA12F;
+}
+
+div#tabela4 .c3 {
+    background-color: #AC7C24;
+}
