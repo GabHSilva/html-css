@@ -112,7 +112,7 @@ div#tt3 th, div#tt3 .notas, div#tt3 .media {
     text-align: center;
 }
 
-div#tt3 th, div#tt3 .media {
+div#tt3 thead, div#tt3 .media, th.thmedia {
     background-color: #636363;
     color: white;
 }
