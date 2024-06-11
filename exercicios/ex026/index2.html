@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query orientação</title>
+    <style>
+        @media all {
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(248, 248, 59);
+                text-shadow: 3px 2px rgba(0, 0, 0, 0.288);
+            }
+        }
+        @media screen and (orientation:portrait) {
+            body {
+                background: black url(imagens/cev-portrait.jpg) no-repeat center center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+        }
+
+        @media screen and (orientation: landscape) {
+            body {
+                background: black url(imagens/cev-landscape.jpg) no-repeat center center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu celular</h1>
+</body>
+</html>
