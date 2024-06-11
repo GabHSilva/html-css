@@ -1,1 +1,15 @@
 @charset "UTF-8";
+
+body {
+    background-image: url(../imagens/back-print.jpg);
+}
+
+main {
+    border: 1px solid black;
+}
+
+img#pc {display: none;}
+img#celular {display: none;}
+img#print {display: block;}
+img#tablet {display: none;}
+img#tv {display: none;}

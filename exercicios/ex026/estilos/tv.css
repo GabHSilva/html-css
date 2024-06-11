@@ -1,1 +1,13 @@
 @charset "UTF-8";
+
+body {
+    background: black url(../imagens/back-tv.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img#pc {display: none;}
+img#celular {display: none;}
+img#print {display: none;}
+img#tablet {display: none;}
+img#tv {display: block;}
