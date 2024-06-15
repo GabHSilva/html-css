@@ -6,25 +6,38 @@
     <title>Media Query orientação</title>
     <style>
         @media all {
-            body {
+            * {
+                margin: 0px;
+                padding: 0px;
                 font-family: Arial, Helvetica, sans-serif;
-                color: rgb(248, 248, 59);
-                text-shadow: 3px 2px rgba(0, 0, 0, 0.288);
+            }
+
+            html, body {
+                width: 100vw;
+                height: 100vh;
+                background-color: #233EFF;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            h1 {
+                padding: 10px;
+                color: white;
+                text-shadow: 3px 2px #162594;
             }
         }
-        @media screen and (orientation:portrait) {
+
+        @media screen and (orientation: portrait) {
             body {
-                background: black url(imagens/cev-portrait.jpg) no-repeat center center;
-                background-size: cover;
-                background-attachment: fixed;
+                background: url(imagens/cev-portrait.jpg);
+                background-position: center bottom;
             }
         }
 
         @media screen and (orientation: landscape) {
             body {
-                background: black url(imagens/cev-landscape.jpg) no-repeat center center;
-                background-size: cover;
-                background-attachment: fixed;
+                background: url(imagens/cev-landscape.jpg);
+                background-position: left bottom;
             }
         }
     </style>
