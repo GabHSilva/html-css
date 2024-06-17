@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 body {
-    background: black url(../imagens/back-tv.jpg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image:url(../imagens/back-tv.jpg);
+
 }
 
 img#pc {display: none;}

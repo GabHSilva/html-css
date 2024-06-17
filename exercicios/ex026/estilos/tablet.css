@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background: black url(../imagens/back-tablet.jpg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image:url(../imagens/back-tablet.jpg);
 }
 
 img#pc {display: none;}
