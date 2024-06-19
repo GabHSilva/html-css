@@ -20,8 +20,23 @@ header > h1 {
     text-align: center;
 }
 
-header > menu {
+span#icon {
     display: block;
+    padding: 20px;
+    text-align: center; 
+    cursor: pointer;
+    color: white;
+    background-color: rgb(121, 121, 121);
+}
+
+span#icon:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+header > menu {
+    display: none;
 }
 
 header > menu > ul {
